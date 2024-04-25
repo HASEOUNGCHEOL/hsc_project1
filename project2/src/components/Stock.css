@@ -1,0 +1,29 @@
+div.row {
+    width: 100%;
+    display: flex;
+    border: 1px solid #003458;
+}
+
+div.left {
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+    /*
+background: #FFF5EE;
+*/
+    font-size: 12px;
+}
+
+div.middle {
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+    background: #ece6cc;
+}
+
+div.right {
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+    background: #ece6cc;
+}

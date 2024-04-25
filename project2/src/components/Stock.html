@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Stock.js"></script>
+    <link rel="stylesheet" href="./Stock.css">
+</head>
+
+<body>
+    <div style="background-color:#EEEEEE">
+        <pre id="output3" style="width: 100%; height: 10%; overflow: auto;"></pre>
+    </div>
+    <!-- output, 주식호가1 box  -->
+    <div class="left" style="background-color:#FFF5EE">
+        <input type="text" id="inputMessage1" style="width: 180px; height: 20px" value="005930"><br>
+        <!-- <button id="hokaregButton1" style="width: 80px; height: 20px; font-size: 12px">주식호가</button><button id="hokaderegButton1" style="width: 100px; height: 20px; font-size: 12px">주식호가해제</button> -->
+        <button id="hokaregButton1" style="width: 80px; height: 20px; font-size: 12px">주식호가</button><button
+            id="hokaderegButton1" style="width: 100px; height: 20px; font-size: 12px">주식호가해제</button><button
+            id="closeButton" style="width: 100px; height: 20px; font-size: 12px">연결해제</button>
+        <pre id="output" style="width: 100%; height: 100%; overflow: auto;"></pre>
+    </div>
+    <!-- output, 주식체결1 box  -->
+    <div class="right" style="background-color:#FFFFFF"><br>
+        <button id="bidregButton1" style="width: 80px; height: 20px; font-size: 12px">주식체결</button><button
+            id="bidderegButton1" style="width: 100px; height: 20px; font-size: 12px">주식체결해제</button>
+        <pre id="output2" style="width: 100%; height: 100%; overflow: auto;"></pre>
+    </div>
+    <!-- output, 주식호가2 box  -->
+    <div class="left" style="background-color:#FFF5EE">
+        <input type="text" id="inputMessage2" style="width: 180px; height: 20px font-size: 12px" value="000660"><br>
+        <button id="hokaregButton2" style="width: 80px; height: 20px; font-size: 12px">주식호가</button><button
+            id="hokaderegButton2" style="width: 100px; height: 20px; font-size: 12px">주식호가해제</button>
+        <pre id="output_1" style="width: 100%; height: 100%; overflow: auto;"></pre>
+    </div>
+    <!-- output, 주식체결2 box  -->
+    <div class="right" style="background-color:#FFFFFF"><br>
+        <button id="bidregButton2" style="width: 80px; height: 20px; font-size: 12px">주식체결</button><button
+            id="bidderegButton2" style="width: 100px; height: 20px; font-size: 12px">주식체결해제</button>
+        <pre id="output2_1" style="width: 100%; height: 100%; overflow: auto;"></pre>
+    </div>
+    <!-- output, 주식체결통보 box  -->
+    <div class="middle">
+        <!-- hts id 입력창 -->
+        <input type="text" id="inputMessage_id" style="width: 80px; height: 20px" value="101334"><br>
+        <button id="bidalamButton" style="width: 100px; height: 20px; font-size: 12px">주식체결통보</button><button
+            id="xbidalamButton" style="width: 120px; height: 20px; font-size: 12px">주식체결통보해제</button>
+        <pre id="output1" style="width: 100%; height: 100%; overflow: auto;"></pre>
+    </div>
+</body>
+</html>

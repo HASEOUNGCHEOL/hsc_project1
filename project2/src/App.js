@@ -1,10 +1,12 @@
 import './App.css';
-import Test from './components/Test'
+import MyWebSocket from './components/MyWebSocket'
+import MyComponent from './components/MyComponents';
 
 function App() {
   return (
     <div>
-      <Test/>
+      <MyWebSocket/>
+      <MyComponent/>
     </div>
   );
 }
