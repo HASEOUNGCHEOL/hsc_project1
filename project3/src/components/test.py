@@ -54,3 +54,4 @@ def get_current_price(stock_no):
 
 get_current_price("005930")
 
+
